@@ -52,3 +52,4 @@ void timeload(int keytime,string a,int z)
 }
 #endif
  
+//我必须提醒一下，由于编码问题一些IDE可能会出现乱码。一般DevC++容易出现这种情况。所以建议您先查看您的IDE是否兼容utf8编码，有必要时将这个文件转换为ANSI编码。
