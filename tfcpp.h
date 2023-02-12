@@ -22,19 +22,19 @@ void timeload(int keytime,string a,int z)
 		Sleep(250);
 		cout<<"\b/";
 		Sleep(250);
-		cout<<"\b¡ª";
+		cout<<"\bÂ¡Âª";
 		Sleep(250);
 		cout<<"\b\\";
 		Sleep(250);
 	}}if(z==1){for(int i=0;i<keytime;i++)
 	{
-		cout<<"\b¡¤";
+		cout<<"\bÂ¡Â¤";
 		Sleep(250);
-		cout<<"\b\b¨E";
+		cout<<"\b\bÂ¨E";
 		Sleep(250);
-		cout<<"\b¡­";
+		cout<<"\bÂ¡Â­";
 		Sleep(250);
-		cout<<"\b¡Ë";
+		cout<<"\bÂ¡Ã‹";
 		Sleep(250);
 	}}
 	if(z==2)
@@ -43,7 +43,7 @@ void timeload(int keytime,string a,int z)
 	{
 		cout<<"\b+";
 		Sleep(250);
-		cout<<"\b¡Á";
+		cout<<"\bÂ¡Ã";
 		Sleep(250);
 		cout<<"\b";
 	}
@@ -51,3 +51,4 @@ void timeload(int keytime,string a,int z)
 	cout<<"\b"<<a;
 }
 #endif
+ 
