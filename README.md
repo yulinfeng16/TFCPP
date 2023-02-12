@@ -8,6 +8,26 @@ Load animation for C++ Console.
 
 ```#include"tfcpp.h"```
 
+同时，你将不必再引入以下头文件：
+
+**iostream**
+
+**string**
+
+**cstring**
+
+**algorithm**
+
+**ctime**
+
+**stdio.h**
+
+**vector**
+
+**queue**
+
+**windows.h**
+
 ## 有哪些函数？
 ```void timeload(int keytime,string a,int z)```
 
