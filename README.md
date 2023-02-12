@@ -29,7 +29,7 @@ Load animation for C++ Console.
 **windows.h**
 
 ## 有哪些函数？
-```void timeload(int keytime,string a,int z)```
+### ```void timeload(int keytime,string a,int z)```
 
 展示一段时间的加载动画。
 
@@ -38,3 +38,4 @@ Load animation for C++ Console.
 **a**控制展示完成后输出的内容
 
 **z**控制加载动画的样式。
+如果z为0，那么动画会呈现为一个条在旋转，就像Python Pip安装模块时的加载动画。如果z为1，那么动画会变成小点从1个增加到4个。如果z为2那么动画会呈现为一个“+”在旋转。
