@@ -50,6 +50,30 @@ void timeload(int keytime,string a,int z)
 	}
 	cout<<"\b"<<a;
 }
+void timeprogress(double keytime,string a,string b)
+{
+	double gt=keytime/10;
+	for(int i=0;i<10;i++)
+	{
+		Sleep(gt*1000);
+		if(i==0)
+		{
+			cout<<" ";
+		}
+		cout<<"\b[";
+		for(int j=0;j<=i;j++)
+		{
+			cout<<"▓";
+		}
+		for(int j=0;j<10-i-1;j++)
+		{
+			cout<<"_";
+		}
+		cout<<"]";
+		cout<<"\b\b\b\b\b\b\b\b\b\b\b\b ";
+	}
+	cout<<a;
+}
 #endif
  
 //我必须提醒一下，由于编码问题一些IDE可能会出现乱码。一般DevC++容易出现这种情况。所以建议您先查看您的IDE是否兼容utf8编码，有必要时将这个文件转换为ANSI编码。
