@@ -3,7 +3,7 @@ Load animation for C++ Console.
 
 为C++控制台应用制作的加载动画库。
 
-**Actions:**
+**Actions状态:**
 [![Greetings](https://github.com/yulinfeng16/TFCPP/actions/workflows/greetings.yml/badge.svg)](https://github.com/yulinfeng16/TFCPP/actions/workflows/greetings.yml)[![Mark stale issues and pull requests](https://github.com/yulinfeng16/TFCPP/actions/workflows/stale.yml/badge.svg)](https://github.com/yulinfeng16/TFCPP/actions/workflows/stale.yml)
 
 ## 简介
