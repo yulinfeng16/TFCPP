@@ -50,8 +50,9 @@ void timeload(int keytime,string a,int z)
 	}
 	cout<<"\b"<<a;
 }
-void timeprogress(double keytime,string a,string b)
+void timeprogress(double keytime,string a)
 {
+	keytime+=1;
 	double gt=keytime/10;
 	for(int i=0;i<10;i++)
 	{
@@ -60,19 +61,19 @@ void timeprogress(double keytime,string a,string b)
 		{
 			cout<<" ";
 		}
-		cout<<"\b[";
+		cout<<"\b\b[";
 		for(int j=0;j<=i;j++)
 		{
 			cout<<"▓";
 		}
-		for(int j=0;j<10-i-1;j++)
+		for(int j=0;j<9-i;j++)
 		{
 			cout<<"_";
 		}
 		cout<<"]";
-		cout<<"\b\b\b\b\b\b\b\b\b\b\b\b ";
+		cout<<"\b\b\b\b\b\b\b\b\b\b\b ";
 	}
-	cout<<a;
+	cout<<"\b\b"<<a<<"       "<<endl;
 }
 #endif
  
