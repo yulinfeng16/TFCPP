@@ -4,7 +4,7 @@ Load animation for C++ Console.
 为C++控制台应用制作的加载动画库。
 
 **Actions:**
-[![Greetings](https://github.com/yulinfeng16/TFCPP/actions/workflows/greetings.yml/badge.svg)](https://github.com/yulinfeng16/TFCPP/actions/workflows/greetings.yml)
+[![Greetings](https://github.com/yulinfeng16/TFCPP/actions/workflows/greetings.yml/badge.svg)](https://github.com/yulinfeng16/TFCPP/actions/workflows/greetings.yml)[![Mark stale issues and pull requests](https://github.com/yulinfeng16/TFCPP/actions/workflows/stale.yml/badge.svg)](https://github.com/yulinfeng16/TFCPP/actions/workflows/stale.yml)
 
 ## 简介
 此库中有一个.h文件“**tfcpp.h**”,通过以下代码将其引入你的C++控制台程序就可以调用函数实现加载动画。
